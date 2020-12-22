@@ -1,2 +1,2 @@
 This folder includes my Exercise Files for Josh McQuinston's LinkedIn Learning course, "Introducing Jupyter". Each Notebook file contains code I
-wrote as I followed along through each chapter. 
+wrote as I followed along through each chapter. A few skills I developed in doing so include efficiency in using cell and line magic commands, and data visualization using tables, line graphs, and bar graphs. I learned how to optimize the way I present data by adding descriptions, subplots, and varying colors. 
