@@ -1,0 +1,154 @@
+Course Title: Introducing Jupyter
+
+Description: Present your projects like a pro with a new tool, Jupyter Notebook. Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, charts and graphics, and descriptive text. It’s ideal for machine learning, statistical modeling, and other projects that require analysis and visualization. Join instructor Josh McQuiston as he shows how to run Jupyter notebooks, streamline workflows, and use common graphs to visualize your data in uncommon ways. The lessons are illustrated with examples based in real data, so you get an accurate picture of the real-world impact Jupyter can make on your development projects.
+
+
+***********************************************
+Chapter: 1. Getting to Know Jupyter
+***********************************************
+
+
+-----------------------------------------------
+Video: Running your Jupyter notebook
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:08            Open Jupyter notebook using command line: type "jupyter notebook" and will take you to page in browser. Using the Anaconda Navigator application does the same thing 
+
+0:01:59            shift + enter to run code and move to next line 
+
+0:02:33            File -> Save and Checkpoint. Creates a backup copy/version of a file; can easily revert back to a previous checkpoint. Only stores one previous checkpoint per file 
+
+0:03:32            Closing browser doesn't close the notebook. Must go to File -> Close and Halt. Or shutdown from your dashboard. To shut down notebook server, CONTROL + C  in terminal, or Quit at top right of screen. 
+
+
+-----------------------------------------------
+Video: Jupyter interface
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:03:15            In [ ] means the cell is an input cell; out [ ] means output 
+
+0:04:16            Make cell a markdown cell (in dropdown menu that initially says "code") to add a description 
+
+0:04:16            Can rearrange cells using up/down arrows at top 
+
+
+***********************************************
+Chapter: 2. Working Efficiently with Jupyter
+***********************************************
+
+
+-----------------------------------------------
+Video: Modes
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:45            Green outline of cell = Edit mode. Used for editing/typing code/text 
+
+0:01:38            Blue outline of cell = Command mode. Used for actions taken in the context of the notebook (ex. copying, deleting)- outside the scope of any individual cell, often for applying actions to multiple cells at once. Go to Help -> Keyboard shortcuts to see commands/differences between Edit/Command modes 
+
+
+-----------------------------------------------
+Video: Shortcuts
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:51            Edit mode shortcuts: Option + LeftArrow or RightArrow key to skip words, forward or backwards. Option + delete to delete a word 
+
+0:00:51            Edit mode shortcuts: Command + UpArrow key to skip to beginning of a line. To add comment to a line: Command + / 
+
+0:01:05            Edit mode: Command + Z to undo, Command + shift + Z to redo 
+
+0:01:23            Option + enter to run current cell and add a cell below 
+
+0:01:34            Shift + enter to move to the next cell 
+
+0:02:24            To split a cell: control + shift + - 
+
+0:02:29            ESC key will put you in Command mode 
+
+0:03:02            Command mode: Shift + UpArrow to select multiple cells. To then merge into one cell: Shift + m key. To copy selected cell: c key. To paste, v key 
+
+0:03:23            Command mode: to hide output of any particular cell, use o key. H key lists all available shortcuts. P key will open command palette  
+
+
+-----------------------------------------------
+Video: Line magic commands
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:54            Command mode: Command + enter to run cell and stay there 
+
+0:01:04            Line magic commands. To load file into cell (note: does not immediately execute it): %load name_of_file. %cat name_of_file to see what a file is that you have in your directory. %run name_of_file 1 3 4 7 9 (pass in a few numbers)  
+
+0:02:30            More line magic commands. %time of some function (for example, calculating the average temperature) gives the time that operation takes. %timeit used similarly doesn't return anything immediately, but then gives you the mean time and the standard deviation over 7 runs of 10000 loops. %system grep (or !!grep) runs regular Shell command and returns output in a list. That output can then be later referred to as a variable Out[ ] (Out[57], for example) 
+
+
+-----------------------------------------------
+Video: Cell magic commands
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:23            Cell magic commands: prepended by a %% (instead of single %). Example: write a function, then at top of cell use %%writefile name_of_file.py to save/write that function to a file for later use. %%capture variable_name, then on the next line a command that would normally return an output. Run that cell and that output is now stored in variable_name. Run variable_name.show() in another cell to show that output 
+
+0:01:42            %lsmagic to return a list of available magics 
+
+
+***********************************************
+Chapter: 3. Effective Plots for Visualization
+***********************************************
+
+
+-----------------------------------------------
+Video: Using pyplot to visualize data
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:00            Pyplots: plot method can be called multiple times to add other plots to the same figure. Use method subplots() 
+
+
+-----------------------------------------------
+Video: Line graphs
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:00            Use plot() method to create line charts, bar() method for bar graphs 
+
+
+-----------------------------------------------
+Video: Bar graphs
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:22            Call signature for bar graphs: x parameter = an array of integers that represent the coordinates of the bars. If passed an array of Strings, will automatically determine coordinates and space them evenly. 'x' and 'height' are the two required parameters 
+
+
+-----------------------------------------------
+Video: Bar graphs with subplots
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:32            Subplots: Trick to vary colors- switch around RGB values so that they're in a different order 
+
+
+***********************************************
+Chapter: 4. Publishing and Sharing Your Jupyter Notebook
+***********************************************
+
+
+-----------------------------------------------
+Video: Exporting to HTML and PDF
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:55            To convert a notebook to HTML file in the command line: "jupyter nbconvert name_of_file". Will place resulting HTML file in same directory as the notebook 
+
+
+-----------------------------------------------
+Video: Slideshow
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:03:09            "--post serve" argument opens the slides right away in browser. Notebook file will still be converted to slides and added to same directory as HTML file 
+
