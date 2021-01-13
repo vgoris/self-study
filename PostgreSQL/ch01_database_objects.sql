@@ -11,7 +11,7 @@ CREATE TABLE public.kinds_of_berries
 );
 
 /* Add values to rows */
-INSERT INTO public.kinds_of_berries (
+INSERT INTO public."kinds_of_berries" (
   "berry_id", "berry_name", "berry_color")
   VALUES (1, 'blueberry', 'blue'), 
          (2, 'strawberry', 'red'),
