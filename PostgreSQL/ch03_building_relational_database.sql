@@ -27,7 +27,7 @@ CREATE TABLE manufacturing.categories
 ALTER TABLE manufacturing.categories
   OWNER to postgres;
   
-/* Link foreign and primary keys */
+/* Link foreign and primary keys to create relationship between "products" and "categories" tables */
 ALTER TABLE manufacturing.products
   ADD FOREIGN KEY (category_id)
   REFERENCES manufacturing.categories (category_id) MATCH SIMPLE
