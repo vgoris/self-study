@@ -20,5 +20,7 @@ INSERT INTO public."kinds_of_berries" (
 /* View table */
 SELECT * FROM public."kinds_of_berries"
 
-
+/* Create a schema */
+CREATE SCHEMA human_resources
+  AUTHORIZATION postgres;
              
