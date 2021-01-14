@@ -1,3 +1,5 @@
+/* PRACTICE */
+
 /* Create schema in an existing database */
 CREATE SCHEMA human_resources
   AUTHORIZATION postgres;
