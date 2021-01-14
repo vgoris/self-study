@@ -17,6 +17,10 @@ CREATE TABLE public.kinds_of_berries
 
 /* Add values to rows 
      Enter text in Postgres in single quotation marks.
+     
+     Each row in a table represents an item. To uniquely identify an item, include an ID column called nameOfTable_id. 
+     This is the table's primary key: a unique (integer) value for each row in table (ex. 1, 2, 3)- typically doesn't have 
+     real-world significance (doesn't imply a ranking, sequence, or count of items)
 */
 INSERT INTO public."kinds_of_berries" (
   "berry_id", "berry_name", "berry_color")
