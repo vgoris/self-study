@@ -14,7 +14,7 @@ WHERE category_id = 3;
 /* Joining tables with existing relationship 
        Use AS keyword to add an alias to a column name:
               when column name is too long, 
-              or two specify which table the column comes from
+              or to specify which table the column comes from
               if two columns from different tables have the same name
        ON keyword specifies which column hold the related values 
 */
