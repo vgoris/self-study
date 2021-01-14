@@ -16,7 +16,7 @@ WHERE category_id = 3;
               when column name is too long, 
               or to specify which table the column comes from
               if two columns from different tables have the same name
-       ON keyword specifies which column hold the related values 
+       ON keyword specifies which columns hold the related values 
 */
 SELECT products.product_id,
        products.name AS product_name,
