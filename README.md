@@ -13,3 +13,5 @@ Included in this repository are my notes for Ray Villalobos' LinkedIn Learning C
 ### LinkedIn Learning: _Learning GitHub_ by Aaron Stewart and GitHub
 I took "Learning GitHub", a LinkedIn Learning Course with Aaron Stewart and GitHub as instructors, to learn about GitHub and version control systems (VCS) such as Git. Included in this repository are the notes I took as I followed along through each chapter and gained an understanding of GitHub workflows in creating/committing branches, and using the command line and the GitHub desktop and online interfaces to do so. 
 
+### LinkedIn Learning: _LPI Linux Essentials (010-160)_ by Jason Dion
+TBD
