@@ -10,3 +10,6 @@
 #   5. variable with all upper-case letters is an environmental variable
 
 $age=40
+
+# Command to see all global/environmental variables
+printenv
