@@ -10,6 +10,12 @@
 #   5. variable with all upper-case letters is an environmental variable
 
 $age=40
+$string='Hello World'
+
+echo $string ; echo $age
 
 # Command to see all global/environmental variables
 printenv
+
+# Print one of these global variables
+echo $HOME
