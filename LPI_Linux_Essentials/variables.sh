@@ -13,7 +13,7 @@ $age=40
 $string='Hello World'
 
 # Semicolon allows you to execute multiple commands on one line. In this case, 
-# echo$age will execute whether or not echo $string executes- no dependency
+# echo $age will execute whether or not echo $string executes- no dependency
 echo $string ; echo $age
 
 # Command to see all global/environmental variables
