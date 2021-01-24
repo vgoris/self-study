@@ -1,3 +1,4 @@
+#!/bin/bash
 # Purpose: practice managing and modifying user and group accounts
 # Modified date: 2020-01-23
 
