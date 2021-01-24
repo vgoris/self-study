@@ -14,4 +14,4 @@ Included in this repository are my notes for Ray Villalobos' LinkedIn Learning C
 I took "Learning GitHub", a LinkedIn Learning Course with Aaron Stewart and GitHub as instructors, to learn about GitHub and version control systems (VCS) such as Git. Included in this repository are the notes I took as I followed along through each chapter and gained an understanding of GitHub workflows in creating/committing branches, and using the command line and the GitHub desktop and online interfaces to do so. 
 
 ### LinkedIn Learning: _LPI Linux Essentials (010-160)_ by Jason Dion
-TBD
+This folder includes my materials for Jason Dion's "LPI Linux Essentials (010-160)" course. After watching each lesson, I practiced the Linux commands described by the instructor and wrote them in the scripts found in this folder. In doing so, I learned the fundamentals of the Linux system as well as how to run commands, manipulate files and directories, and manage users. Notes and additional descriptions about these topics are included as comments in these files. 
