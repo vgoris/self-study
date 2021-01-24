@@ -1,3 +1,4 @@
+#!/bin/bash
 # Purpose: practice piping, redirecting, and extracting certain data from files
 # Modified date: 2020-01-23
 
