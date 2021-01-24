@@ -31,4 +31,11 @@ else
   exit
 fi
 
+# A script's return value is the same as the last command the script called: returns $?
+# exit causes immediate termination of the script
+# can implement variable to hold the cause of a script's termination. Set it equal to zero at the start of script
+$termcause=0
+# pass variable to exit command to return an error code to the user
+exit $termcause
+
 
