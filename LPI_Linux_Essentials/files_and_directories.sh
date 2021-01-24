@@ -6,6 +6,8 @@
 ls
 
 # display all files in directory, hidden or not
+# parameters that start with leading dashes are called options
+#   can be grouped as follows: -ac or -a -c
 ls -a
 
 # lists files with additional information: ownership, creation dates, etc.
