@@ -24,6 +24,9 @@ pwd
 
 # creates empty file called newfile.txt
 # when used with directories, only updates the date/time stamp. Use mkdir command to create a directory instead
+# file names are case sensitive in Linux filesystem, but not in others. Avoid problems and allow for universal 
+#     usage of files across different systems by assuming case insensitivity when naming files
+# note: start file with a period to make the file hidden. File is then visible by using ls -la command
 touch newfile.txt
 
 # copy a file
