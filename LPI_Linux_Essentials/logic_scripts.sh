@@ -1,3 +1,4 @@
+#!/bin/bash
 # Purpose: practice writing logic commands in a script
 # Modified date: 2020-01-23
 
