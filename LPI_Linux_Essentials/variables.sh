@@ -16,6 +16,12 @@ $string='Hello World'
 # echo $age will execute whether or not echo $string executes- no dependency
 echo $string ; echo $age
 
+# quoting = the act of protecting shell meta-characters ($ or ; for example) from being treated as such
+#         by using " ", ' ', or \
+# example:
+echo "I have \$1200" 
+echo "My name is Jason; I live in DC" 
+
 # Command to see all global/environmental variables
 printenv
 
