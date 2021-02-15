@@ -15,3 +15,6 @@ I took "Learning GitHub", a LinkedIn Learning Course with Aaron Stewart and GitH
 
 ### LinkedIn Learning: _LPI Linux Essentials (010-160)_ by Jason Dion
 This folder includes my materials for Jason Dion's "LPI Linux Essentials (010-160)" course. After watching each lesson, I practiced the Linux commands described by the instructor and wrote them in the scripts found in this folder. In doing so, I learned the fundamentals of the Linux system as well as how to run commands, manipulate files and directories, and manage users. Notes and additional descriptions about these topics are included as comments in these files. 
+
+### _Network Science with Python and NetworkX Quick Start Guide_ by Edward L. Platt
+TBD
